@@ -6,8 +6,8 @@ use rand::{thread_rng, Rng};
 use crate::construction::{draw_block, draw_rectangle};
 use crate::snake::{Direction, Snake};
 
-const FOOD_COLOR: Color = [0.90, 0.10, 0.90, 1.0];
-const BORDER_COLOR: Color = [0.00, 0.00, 0.00, 5.0];
+const FOOD_COLOR: Color = [0.90, 0.10, 0.45, 1.0];
+const BORDER_COLOR: Color = [0.80, 0.80, 0.80, 1.0];
 const GAMEOVER_COLOR: Color = [0.80, 0.00, 0.00, 0.8];
 
 const RESTART_TIME: f64 = 1.0;
